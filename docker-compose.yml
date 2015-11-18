@@ -1,0 +1,9 @@
+node:
+    build: ./node/
+    ports:
+        - 4444:4444
+    links:
+        - redis
+
+redis:
+    build: ./redis/

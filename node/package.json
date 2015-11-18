@@ -1,0 +1,14 @@
+{
+  "name": "node-redis",
+  "version": "0.1.0",
+  "description": "node & redis experiment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^2.3.0"
+  }
+}
